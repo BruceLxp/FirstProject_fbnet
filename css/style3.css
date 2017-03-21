@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/* 注册界面头部 */
+header{width:100%;max-width:1920px;height:98px;border-bottom:1px solid green;overflow:hidden;}
+header .w1000{margin-top:10px;}
+header .w1000 img:first-child{width:166px;height:70px;margin-right:20px;}
+header .w1000 img:last-child{width:204px;height:46px;}
+
+/* 注册界面主体 */
+section{width:100%;max-width:1920px;height:auto;border-bottom:1px solid #ccc;overflow:hidden;}
+section .w1000{margin-top:20px;}
+section .w1000 .regist{overflow:hidden;margin-bottom:20px;}
+section .w1000 .regist li:first-child{float:left;}
+section .w1000 .regist li:first-child img{width:16px;height:16px;margin-right:5px;margin-left:10px;}
+section .w1000 .regist li:first-child span{font-size:14px;font-weight:bolder;}
+section .w1000 .regist li:last-child{float:right;}
+section .w1000 .regist li:last-child{font-size:6px;color:#c9cbc9;}
+section .w1000 .regist li:last-child a{color:#66a1e7;}
+section .w1000 .back_main{width:998px;height:auto;border:1px solid #d7d6d6;position:relative;}
+section .w1000 .back_main .back_pic{background:url(../images/back1.jpg);width:100%;height:auto;}
+section .w1000 .back_main .back_pic ul{overflow:hidden;position:relative;}
+section .w1000 .back_main .back_pic ul li{margin-top:20px;float:left;}
+section .w1000 .back_main .back_pic ul li:first-child{margin-left:38px;}
+section .w1000 .back_main .back_pic ul li .one{font-size:14px;color:#807e7e;position:absolute;top:10px;left:34px;}
+section .w1000 .back_main .back_pic ul li .two{font-size:14px;color:#807e7e;position:absolute;top:10px;left:424px;}
+section .w1000 .back_main .back_pic ul li .three{font-size:14px;color:#807e7e;position:absolute;top:10px;right:50px;}
+section .w1000 .back_main .back_pic ul li img{margin-top:18px;}
+section .w1000 .back_main .back_form{width:368px;height:338px;position:relative;margin:120px auto 174px;}
+section .w1000 .back_main .back_form>img{position:absolute;top:0;left:0;}
+section .w1000 .back_main .back_form .one{font-size:18px;position:absolute;left:70px;top:5px;}
+section .w1000 .back_main .back_form .two{font-size:18px;position:absolute;left:70px;top:45px;}
+section .w1000 .back_main .back_form #get_username{font-size:14px;color:#ff9000;}
+section .w1000 .back_main .back_form button{position:absolute;right:0;top:34px;width:120px;height:30px;background-color:#ff9000;font-size:15px;color:white;}
+section .w1000 .back_main .back_form div{position:absolute;left:86px;bottom:0;width:194px;height:212px;border:1px solid #ccc;}
+section .w1000 .back_main .back_form div img:first-child{margin:26px 0 0 20px;}
+section .w1000 .back_main .back_form div img:last-child{margin:10px 0 0 38px;}
+section .w1000 .main_ul{width:598px;display:flex;justify-content:space-between;margin:80px auto 15px;}
+section .w1000 .main_ul li{width:118px;border-left:1px solid #ccc;border-right:1px solid #ccc;text-align:center;font-size:15px;}
+section .w1000 .main_ul li:first-child{border-left:0;}
+section .w1000 .main_ul li:last-child{border-right:0;}
+
+/* 注册页面底部 */
+footer{width:100%;max-width:1920px;overflow:hidden;}
+footer .w1000{font-size:12px;color:#ccc;margin-top:20px;text-align:center;}
+footer .w1000 span{color:#5e5d5d;}
+
+/* 密码登录弹窗 */
+.alert{background:url(../images/icon8.png) no-repeat center;width:360px;height:368px;margin:0 auto;overflow:hidden;position:fixed;left:50%;top:50%;margin-left:-180px;margin-top:-184px;z-index:100;}
+.alert ul{width:100%;height:54px;border-bottom:1px solid #49a75b;}
+.alert ul li{font-size:22px;width:180px;height:54px;text-align:center;line-height:54px;float:left;color:#ccc;}
+.alert ul .changeList{border-bottom:5px solid #49a75b;color:#49a75b;}
+
+/* 密码 */
+.alert .pwd_alert{margin-top:26px;}
+.alert .pwd_alert input{width:300px;height:40px;border:1px solid #ccc;border-radius:5px;margin-left:32px;}
+.alert .pwd_alert #pwd{margin-bottom:8px;}
+.alert .pwd_alert input::-webkit-input-placeholder{font-size:20px;}
+.alert .pwd_alert #auto_regist{width:30px;height:30px;vertical-align:middle;}
+.alert .pwd_alert label{font-size:15px;vertical-align:middle;margin-left:-10px;}
+.alert .pwd_alert>a{font-size:15px;color:#56a9e9;margin-left:140px;}
+.alert .pwd_alert button{background:url(../images/bot1.png) no-repeat center;width:298px;height:30px;margin-left:32px;margin-top:10px;font-size:18px;line-height:30px;text-align:center;color:white;}
+.alert .pwd_alert div{width:340px;height:50px;background-color:#f7fbf5;margin-left:10px;margin-top:24px;line-height:50px;}
+.alert .pwd_alert div span{font-size:17px;margin-left:12px;}
+.alert .pwd_alert div span a{color:#4ea4e7;}
+.alert .pwd_alert .error{color:red;font-size:18px;margin-left:80px;margin-top:5px;}
+
+/* 手机验证码 */
+.alert .phone_alert{margin-top:28px;}
+.alert .phone_alert #checkPhone{width:300px;height:40px;border:1px solid #ccc;border-radius:5px;margin-left:32px;}
+.alert .phone_alert #checkGetCode,.alert .phone_alert #getPhoneCode{width:124px;height:40px;border:1px solid #ccc;border-radius:5px;margin-top:20px;margin-left:32px;}
+.alert .phone_alert input::-webkit-input-placeholder{font-size:18px;}
+.alert .phone_alert img{margin-left:3px;vertical-align:middle;}
+.alert .phone_alert .doknow{font-size:15px;vertical-align:middle;}
+.alert .phone_alert .doknow a{color:#2da1e7;}
+.alert .phone_alert .getCode{display:inline-block;width:100px;height:26px;border:1px solid #ccc;font-size:12px;text-align:center;line-height:26px;border-radius:3px;margin-left:18px;}
+.alert .phone_alert button{background:url(../images/bot1.png) no-repeat center;width:298px;height:30px;margin-left:32px;margin-top:20px;font-size:18px;line-height:30px;text-align:center;color:white;}
+.alert .phone_alert div{width:340px;height:50px;background-color:#f7fbf5;margin-left:10px;margin-top:24px;line-height:50px;}
+.alert .phone_alert div span{font-size:17px;margin-left:12px;}
+.alert .phone_alert div span a{color:#4ea4e7;}
+
+/*背景阴影*/
+.back{width:100%;height:100%;background:rgba(0,0,0,0.4);position:fixed;z-index:99;top:0;left:0;display:none;}

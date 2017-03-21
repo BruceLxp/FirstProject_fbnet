@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>注册成功</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style3.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/main3.js"></script>
+</head>
+
+<body>
+    <!-- 注册界面头部 -->
+    <header>
+        <div class="w1000">
+            <img src="images/logo.png" alt="">
+            <img src="images/logo1.png" alt="">
+        </div>
+    </header>
+    <!-- 注册界面主体 -->
+    <section>
+        <div class="w1000">
+            <ul class="regist">
+                <li>
+                    <img src="images/icon9_1.png" alt="">
+                    <span>注册会员</span>
+                </li>
+                <li>我已经注册，现在就登录<a href="">登录</a></li>
+            </ul>
+            <div class="back_main">
+                <div class="back_pic">
+                    <ul>
+                        <li>
+                            <p class="one">填写注册信息</p>
+                            <img src="images/regis1.png" alt="">
+                        </li>
+                        <li>
+                            <p class="two">接受并填写手机验证码</p>
+                            <img src="images/regis2.png" alt="">
+                        </li>
+                        <li>
+                            <p class="three">注册成功</p>
+                            <img src="images/regis5.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="back_form">
+                    <img src="images/icon34.png" alt="">
+                    <p class="one">恭喜您，注册成功！</p>
+                    <p class="two">登录名为：<span id="get_username"></span></p>
+                    <button id="immediately_regist">立即登录</button>
+                    <div>
+                        <img src="images/webchat.png" alt="">
+                        <img src="images/text.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <ul class="main_ul">
+                <li>关于我们</li>
+                <li>免责声明</li>
+                <li>常见问题</li>
+                <li>联系我们</li>
+                <li>人才招聘</li>
+            </ul>
+        </div>
+    </section>
+    <!-- 注册界面底部 -->
+    <footer>
+        <div class="w1000">
+            Copyright@ 2013-2016 <span>| 苏ICP备12063525号-4 苏州乐卡网络科技有限公司</span>
+        </div>
+    </footer>
+    <!-- 密码登录弹窗 -->
+    <div class="alert none">
+        <ul>
+            <li class="changeList">密码登录</li>
+            <li>手机验证码登录</li>
+        </ul>
+        <!-- 密码 -->
+        <div class="pwd_alert choose_click">
+            <input type="text" name="" id="bring_num" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手机号">
+            <br>
+            <br>
+            <br>
+            <input type="password" name="" id="pwd" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码">
+            <input type="checkbox" name="" id="auto_regist">
+            <label for="auto_regist">自动登录</label>
+            <a href="">忘记密码？</a>
+            <p class="error none">手机号或密码不正确！</p>
+            <button id="pwd_regist">登录</button>
+            <div><span>还不是方便网会员？<a href="">免费注册</a></span></div>
+        </div>
+        <!-- 手机验证码 -->
+        <div class="phone_alert none choose_click">
+            <input type="text" name="" id="checkPhone" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手机号">
+            <input type="text" name="" id="checkGetCode" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;验证码">
+            <img src="images/icon32.png" alt="">
+            <span class="doknow">看不清楚？<a href="">换一张</a></span>
+            <input type="text" name="" id="getPhoneCode" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手机验证码">
+            <span class="getCode">获取手机验证码</span>
+            <button>登录</button>
+            <div><span>还不是方便网会员？<a href="">免费注册</a></span></div>
+        </div>
+    </div>
+    <!-- 弹窗阴影 -->
+    <div class="back"></div>
+    <!-- 手机验证码登录弹窗 -->
+</body>
+
+</html>

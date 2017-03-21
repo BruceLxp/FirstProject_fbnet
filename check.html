@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>手机验证码</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/main2.js"></script>
+</head>
+
+<body>
+    <!-- 注册界面头部 -->
+    <header>
+        <div class="w1000">
+            <img src="images/logo.png" alt="">
+            <img src="images/logo1.png" alt="">
+        </div>
+    </header>
+    <!-- 注册界面主体 -->
+    <section>
+        <div class="w1000">
+            <!-- 注册会员 -->
+            <ul class="regist">
+                <li>
+                    <img src="images/icon9_1.png" alt="">
+                    <span>注册会员</span>
+                </li>
+                <li>我已经注册，现在就登录<a href="">登录</a></li>
+            </ul>
+            <!-- 导航栏 -->
+            <div class="back_main">
+                <div class="back_pic">
+                    <ul>
+                        <li>
+                            <p class="one">填写注册信息</p>
+                            <img src="images/regis1.png" alt="">
+                        </li>
+                        <li>
+                            <p class="two">接受并填写手机验证码</p>
+                            <img src="images/regis2.png" alt="">
+                        </li>
+                        <li>
+                            <p class="three">注册成功</p>
+                            <img src="images/regis4.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="back_form">
+                    <p>方便网已经向您的手机<span id="get_num"></span>发送了注册验证码</p>
+                    <label for="check_code">验证码</label>
+                    <input type="text" name="check_code" id="check_code"><span id="autoCheck"></span>
+                    <span class="check_code none">校验码错误，重新输入!</span>
+                    <br>
+                    <br>
+                    <br>
+                    <button id="confirm">确认并提交注册</button>
+                    <div>
+                        <p>没收到验证码，请重新申请验证码：</p>
+                        <button id="resend"><span id="time_list"></span>秒重新发送短信</button>
+                    </div>
+                </div>
+                <!-- 右侧二维码 -->
+                <div class="sec_code">
+                    <ul>
+                        <li>
+                            <img src="images/webchat.png" alt="" class="one">
+                        </li>
+                        <li>
+                            <img src="images/regis7.png" alt="" class="two">
+                        </li>
+                        <li>
+                            <img src="images/regis6.png" alt="" class="three">
+                        </li>
+                    </ul>
+                </div>
+                <!-- 主体下部 -->
+                <div class="main_footer">
+                    <h3>验证手机常见问题</h3>
+                    <ul>
+                        <li>
+                            <p>1.问：为什么要进行手机验证？</p>
+                            <p>答：当您遗忘密码时，可通过验证手机找回密码。</p>
+                        </li>
+                        <li>
+                            <p>2.问：如果多次长时间收不到验证码怎么办？</p>
+                            <p>答：您可以尝试重新发送，若仍未收到，请查看手机是否安装有防火墙拦截了短信。</p>
+                        </li>
+                        <li>
+                            <p>3.问：验证过的手机今后还可以修改吗？</p>
+                            <p>答：手机验证通过后，即生成方便网账户。验证手机是可以修改的，修改后账户名也将一同修改为新手机号码。</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="main_ul">
+                <li>关于我们</li>
+                <li>免责声明</li>
+                <li>常见问题</li>
+                <li>联系我们</li>
+                <li>人才招聘</li>
+            </ul>
+        </div>
+    </section>
+    <!-- 注册界面底部 -->
+    <footer>
+        <div class="w1000">
+            Copyright@ 2013-2016 <span>| 苏ICP备12063525号-4 苏州乐卡网络科技有限公司</span>
+        </div>
+    </footer>
+</body>
+
+</html>

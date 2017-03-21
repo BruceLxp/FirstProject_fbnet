@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/* 注册界面头部 */
+header{width:100%;max-width:1920px;height:98px;border-bottom:1px solid green;overflow:hidden;}
+header .w1000{margin-top:10px;}
+header .w1000 img:first-child{width:166px;height:70px;margin-right:20px;}
+header .w1000 img:last-child{width:204px;height:46px;}
+
+/* 注册界面主体 */
+section{width:100%;max-width:1920px;height:auto;border-bottom:1px solid #ccc;overflow:hidden;}
+section .w1000{margin-top:20px;}
+section .w1000 .regist{overflow:hidden;margin-bottom:20px;}
+section .w1000 .regist li:first-child{float:left;}
+section .w1000 .regist li:first-child img{width:16px;height:16px;margin-right:5px;margin-left:10px;}
+section .w1000 .regist li:first-child span{font-size:14px;font-weight:bolder;}
+section .w1000 .regist li:last-child{float:right;}
+section .w1000 .regist li:last-child{font-size:6px;color:#c9cbc9;}
+section .w1000 .regist li:last-child a{color:#66a1e7;}
+section .w1000 .back_main{width:998px;height:auto;border:1px solid #d7d6d6;position:relative;}
+section .w1000 .back_main .back_pic{background:url(../images/back1.jpg);width:100%;height:auto;}
+section .w1000 .back_main .back_pic ul{overflow:hidden;position:relative;}
+section .w1000 .back_main .back_pic ul li{margin-top:20px;float:left;}
+section .w1000 .back_main .back_pic ul li:first-child{margin-left:38px;}
+section .w1000 .back_main .back_pic ul li .one{font-size:14px;color:#807e7e;position:absolute;top:10px;left:34px;}
+section .w1000 .back_main .back_pic ul li .two{font-size:14px;color:#807e7e;position:absolute;top:10px;left:424px;}
+section .w1000 .back_main .back_pic ul li .three{font-size:14px;color:#807e7e;position:absolute;top:10px;right:50px;}
+section .w1000 .back_main .back_pic ul li img{margin-top:18px;}
+section .w1000 .back_main .back_form>p{font-size:13px;margin-top:50px;margin-left:75px;}
+section .w1000 .back_main .back_form>p span{color:#ff9000;}
+section .w1000 .back_main .back_form label{font-size:15px;margin-left:50px;margin-right:10px;margin-top:30px;}
+section .w1000 .back_main .back_form input{width:162px;height:32px;border:1px solid #ccc;margin-top:30px;}
+section .w1000 .back_main .back_form #autoCheck{margin-left:8px;font-size:20px;border:1px solid orange;vertical-align:middle;}
+section .w1000 .back_main .back_form .check_code{color:red;margin-left:5px;}
+section .w1000 .back_main .back_form>button{width:162px;height:32px;background-color:#ff9000;font-size:18px;color:white;margin-left:104px;border-radius:3px;}
+section .w1000 .back_main .back_form div{border-top:1px dashed #ccc;width:748px;height:auto;margin-top:30px;margin-left:10px;}
+section .w1000 .back_main .back_form div p{font-size:12px;margin-left:94px;margin-top:50px;}
+section .w1000 .back_main .back_form div button{width:130px;height:34px;background-color:#f0f0f0;border:1px solid #6b6b6c;border-radius:5px;margin-left:94px;margin-top:25px;}
+section .w1000 .back_main .main_footer{width:960px;height:282px;background-color:#f2f2f2;margin:110px auto 20px;font-size:14px;position:relative;}
+section .w1000 .back_main .main_footer h3{position:absolute;top:30px;left:16px;}
+section .w1000 .back_main .main_footer ul{position:absolute;top:65px;left:16px;}
+section .w1000 .back_main .main_footer ul li{margin-top:26px;}
+section .w1000 .back_main .main_footer ul li p:first-child{margin-bottom:10px;}
+section .w1000 .back_main .sec_code{width:198px;height:396px;border:1px solid #ccc;position:absolute;right:20px;top:102px;}
+section .w1000 .back_main .sec_code ul li:first-child{margin-left:24px;margin-top:28px;}
+section .w1000 .back_main .sec_code ul li:nth-child(2){margin-left:60px;margin-top:28px;}
+section .w1000 .back_main .sec_code ul li:last-child{margin-top:20px;}
+section .w1000 .main_ul{width:598px;display:flex;justify-content:space-between;margin:80px auto 15px;}
+section .w1000 .main_ul li{width:118px;border-left:1px solid #ccc;border-right:1px solid #ccc;text-align:center;font-size:15px;}
+section .w1000 .main_ul li:first-child{border-left:0;}
+section .w1000 .main_ul li:last-child{border-right:0;}
+
+/* 注册页面底部 */
+footer{width:100%;max-width:1920px;overflow:hidden;}
+footer .w1000{font-size:12px;color:#ccc;margin-top:20px;text-align:center;}
+footer .w1000 span{color:#5e5d5d;}
